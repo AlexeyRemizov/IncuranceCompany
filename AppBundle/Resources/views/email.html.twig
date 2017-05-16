@@ -1,0 +1,10 @@
+<h3>Hello <b>{{ letter.name }}</b>!</h3>
+
+<br><br>
+{{ letter.message }}
+<br>
+---
+<br>
+{{ letter.weather|raw }}
+<br><br>
+{{ letter.created|date('Y-m-d h:i:s') }}
